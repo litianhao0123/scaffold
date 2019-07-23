@@ -100,7 +100,7 @@ public class ShiroConfiguration {
    * @return
    */
   @Bean
-  public ShiroFilterFactoryBean shirFilter(DefaultWebSecurityManager securityManager) {
+  public ShiroFilterFactoryBean shiroFilter(DefaultWebSecurityManager securityManager) {
     ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
     shiroFilterFactoryBean.setSecurityManager(securityManager());
 
